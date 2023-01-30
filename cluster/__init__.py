@@ -1,3 +1,6 @@
+"""
+Write some shit
+"""
 from .kmeans import KMeans
 from .silhouette import Silhouette
 from .utils import (
