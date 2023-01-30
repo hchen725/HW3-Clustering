@@ -1,3 +1,4 @@
+![BuildStatus](https://github.com/hchen725/HW3-clustering/actions/workflows/test.yml/badge.svg)
 # Project 3
 Implementation of KMeans and Silhouette Scoring
 
