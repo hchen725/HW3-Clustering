@@ -48,6 +48,4 @@ def test_compare_to_sklean():
 
     sil_scores = sil.score(mat_test, labels_pred)
     sklearn_scores = silhouette_score(mat_test, labels_pred)
-    assert abs(np.mean(sil_scores) - sklearn_scores) < 0.01
-
-
+    assert np.isclose(np.mean(sil_scores), sklearn_scores)

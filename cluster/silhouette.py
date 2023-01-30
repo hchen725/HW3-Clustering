@@ -56,8 +56,9 @@ class Silhouette:
         return sil_scores
 
     def _calculate_a(self, pariwise_dists, y, current_cluster, obs):
+        cluster_size = len(y[y == current_cluster])
         same_cluster_dists = pariwise_dists[y == current_cluster][:,obs]
-        a = np.mean(same_cluster_dists)
+        a = np.sum(same_cluster_dists)/(cluster_size - 1)
         return a
 
     def _calculate_b(self, pairwise_dists, y, current_cluster, obs, cluster_list):
