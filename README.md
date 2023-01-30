@@ -1,4 +1,4 @@
-# Project 5
+# Project 3
 Implementation of KMeans and Silhouette Scoring
 
 # Assignment
@@ -71,17 +71,17 @@ scores = silhouette.score(labels)
 
 [ TODO ] Complete the KMeans class with your implementation of the algorithm
 
-  [ ] complete the `fit` method  
-  [ ] complete the `predict` method  
-  [ ] complete the `get_error` method  
-  [ ] complete the `get_centroid` method  
+  [ x ] complete the `fit` method  
+  [ x ] complete the `predict` method  
+  [ x ] complete the `get_error` method  
+  [ x ] complete the `get_centroid` method  
 
 [ TODO ] Complete the Silhouette class with your implementation of the metric
-  [ ] complete the `score` method  
+  [ x ] complete the `score` method  
 
 [ TODO ] Unit Testing  
-  [ ] KMeans Class  
-  [ ] Silhouette Class -- make sure to test against sklearn
+  [ x ] KMeans Class  
+  [ x ] Silhouette Class -- make sure to test against sklearn
 
 [ TODO ] Packaging  
   [ ] pip installable module  
