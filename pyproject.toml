@@ -24,4 +24,4 @@ dependencies = [
 ]
 
 [project.urls]
-Home = "https://github.com/hchen725/HW3-Clustering"
+Home = "https://github.com/hchen725/HW3-clustering"
